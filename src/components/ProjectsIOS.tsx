@@ -1,7 +1,7 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
-import iphonetest from "../assets/img/iphonetest.png";
 import ProyectCard from "./ProyectCard";
+
+const iphonetest = require("../assets/img/iphonetest.png");
 
 const ProjectsIOS = () => {
   const responsive = {

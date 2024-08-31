@@ -1,5 +1,3 @@
-import React from "react";
-import { Blur } from "../styles/animations/Blur";
 import { Reveal } from "../styles/animations/Reveal";
 
 interface Props {

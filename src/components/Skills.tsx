@@ -3,16 +3,16 @@ import { Reveal } from "../styles/animations/Reveal";
 import SkillCard from "../components/SkillCard";
 
 // Icons
-import swift from "../assets/img/swift-15.svg";
-import swiftui from "../assets/img/swiftui-96x96_2x.png";
-import swiftdata from "../assets/img/swiftdata-96x96_2x.png";
-import cloudkit from "../assets/img/cloudkit.png";
-import xcode from "../assets/img/Xcode.png";
-import terminal from "../assets/img/terminal.png";
-import github from "../assets/img/github.png";
-import vapor from "../assets/img/vapor.png";
-import cpp from "../assets/img/cpp.png";
-import nodejs from "../assets/img/nodejs.png";
+const swift = require("../assets/img/swift-15.svg");
+const swiftui = require("../assets/img/swiftui-96x96_2x.png");
+const swiftdata = require("../assets/img/swiftdata-96x96_2x.png");
+const cloudkit = require("../assets/img/cloudkit.png");
+const xcode = require("../assets/img/Xcode.png");
+const terminal = require("../assets/img/terminal.png");
+const github = require("../assets/img/github.png");
+const vapor = require("../assets/img/vapor.png");
+const cpp = require("../assets/img/cpp.png");
+const nodejs = require("../assets/img/nodejs.png");
 
 const Skills = () => {
   return (

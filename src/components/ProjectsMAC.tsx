@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-const macbook = require("../assets/img/macbook-test.png");
+// const macbook = require("../assets/img/macbook-test.png");
 import ProyectCard from "./ProyectCard";
 
 const ProjectsMAC = () => {
@@ -34,10 +34,9 @@ const ProjectsMAC = () => {
           containerClass={`w-full`}
           infinite={true}
         >
-          <ProyectCard image={macbook} mac={true} />
-          <ProyectCard image={macbook} mac={true} />
-          <ProyectCard image={macbook} mac={true} />
-          <ProyectCard image={macbook} mac={true} />
+          <ProyectCard image={"/macbook-test.png"} mac={true} />
+          <ProyectCard image={"/macbook-test.png"} mac={true} />
+          <ProyectCard image={"/macbook-test.png"} mac={true} />
         </Carousel>
       </div>
     </div>

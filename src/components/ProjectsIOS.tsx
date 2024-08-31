@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import ProyectCard from "./ProyectCard";
 
-const iphonetest = require("../assets/img/iphonetest.png");
+// const iphonetest = require("/iphonetest.png");
 
 const ProjectsIOS = () => {
   const responsive = {
@@ -34,10 +34,9 @@ const ProjectsIOS = () => {
           containerClass={`w-full`}
           infinite={true}
         >
-          <ProyectCard image={iphonetest} />
-          <ProyectCard image={iphonetest} />
-          <ProyectCard image={iphonetest} />
-          <ProyectCard image={iphonetest} />
+          <ProyectCard image={"/iphonetest.png"} />
+          <ProyectCard image={"/iphonetest.png"} />
+          <ProyectCard image={"/iphonetest.png"} />
         </Carousel>
       </div>
     </div>

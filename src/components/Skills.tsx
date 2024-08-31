@@ -25,59 +25,18 @@ const Skills = () => {
       </div>
 
       <div className="flex w-3/4 justify-evenly py-8">
-        <SkillCard image={swift} title="Swift" message="this is Swift" />
-        <SkillCard
-          image={swiftui}
-          title="SwiftUI"
-          message="this is swiftui"
-          delay={0.2}
-        />
-        <SkillCard
-          image={swiftdata}
-          title="SwiftData"
-          message="this is swiftdata"
-          delay={0.3}
-        />
-        <SkillCard
-          image={xcode}
-          title="XCode"
-          message="this is xcode"
-          scale="scale-125"
-          delay={0.4}
-        />
-        <SkillCard
-          image={cloudkit}
-          title="CloudKit"
-          message="this is cloudkit"
-          delay={0.5}
-        />
+        <SkillCard image={swift} title="Swift" />
+        <SkillCard image={swiftui} title="SwiftUI" delay={0.2} />
+        <SkillCard image={swiftdata} title="SwiftData" delay={0.3} />
+        <SkillCard image={xcode} title="XCode" scale="scale-125" delay={0.4} />
+        <SkillCard image={cloudkit} title="CloudKit" delay={0.5} />
       </div>
       <div className="flex w-3/4 justify-evenly py-8">
-        <SkillCard image={terminal} title="Terminal" message="this is Swift" />
-        <SkillCard
-          image={github}
-          title="GitHub"
-          message="this is swiftui"
-          delay={0.2}
-        />
-        <SkillCard
-          image={vapor}
-          title="Vapor"
-          message="this is swiftdata"
-          delay={0.3}
-        />
-        <SkillCard
-          image={cpp}
-          title="C++"
-          message="this is xcode"
-          delay={0.4}
-        />
-        <SkillCard
-          image={nodejs}
-          title="NodeJS"
-          message="this is cloudkit"
-          delay={0.5}
-        />
+        <SkillCard image={terminal} title="Terminal" />
+        <SkillCard image={github} title="GitHub" delay={0.2} />
+        <SkillCard image={vapor} title="Vapor" delay={0.3} />
+        <SkillCard image={cpp} title="C++" delay={0.4} />
+        <SkillCard image={nodejs} title="NodeJS" delay={0.5} />
       </div>
     </div>
   );

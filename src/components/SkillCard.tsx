@@ -3,12 +3,12 @@ import { Reveal } from "../styles/animations/Reveal";
 interface Props {
   image: string;
   title: string;
-  message: string;
+
   scale?: string;
   delay?: number;
 }
 
-const SkillCard = ({ image, title, message, scale, delay }: Props) => {
+const SkillCard = ({ image, title, scale, delay }: Props) => {
   return (
     <div className="flex flex-col items-center justify-center w-32">
       <Reveal delayTime={delay}>

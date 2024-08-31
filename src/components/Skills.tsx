@@ -1,4 +1,3 @@
-import React from "react";
 import { Reveal } from "../styles/animations/Reveal";
 import SkillCard from "../components/SkillCard";
 

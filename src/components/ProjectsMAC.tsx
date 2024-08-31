@@ -1,4 +1,3 @@
-import React from "react";
 import Carousel from "react-multi-carousel";
 const macbook = require("../assets/img/macbook-test.png");
 import ProyectCard from "./ProyectCard";

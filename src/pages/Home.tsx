@@ -1,4 +1,3 @@
-import React from "react";
 import SidebarL from "../components/SidebarL";
 import Content from "../components/Content";
 import SidebarR from "../components/SidebarR";

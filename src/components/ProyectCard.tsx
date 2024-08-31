@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 
 interface Props {
   image: string;
@@ -6,15 +6,15 @@ interface Props {
 }
 
 const ProyectCard = ({ image, mac }: Props) => {
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
-  const handleSize = () => {
-    if (active == false) {
-      setActive(true);
-    } else {
-      setActive(false);
-    }
-  };
+  // const handleSize = () => {
+  //   if (active == false) {
+  //     setActive(true);
+  //   } else {
+  //     setActive(false);
+  //   }
+  // };
 
   return (
     <div

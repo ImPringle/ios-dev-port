@@ -6,11 +6,11 @@ const Navbar = () => {
           <p className="  font-bold">Mario Pringle</p>
         </div>
 
-        <div className="flex gap-4">
+        {/* <div className="flex gap-4">
           <p className=" ">About me</p>
           <p className=" ">Skills</p>
           <p className=" ">Projects</p>
-        </div>
+        </div> */}
       </div>
     </div>
   );

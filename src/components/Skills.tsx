@@ -23,7 +23,7 @@ const Skills = () => {
           </div>
         </Reveal>
       </div>
-      <div className=" bg-cyan-100 flex min-[580px]:flex-col items-center justify-center min-[580px]:w-full">
+      <div className="flex min-[580px]:flex-col items-center justify-center min-[580px]:w-full">
         <div className="flex flex-col min-[580px]:flex-row w-3/4 justify-evenly py-8 ">
           <SkillCard image={"/swift-15.svg"} title="Swift" />
           <SkillCard

@@ -2,10 +2,12 @@
 
 interface Props {
   image: string;
+  title: string;
+  desc: string;
   mac?: boolean;
 }
 
-const ProyectCard = ({ image, mac }: Props) => {
+const ProyectCard = ({ image, mac, title, desc }: Props) => {
   // const [active, setActive] = useState(false);
 
   // const handleSize = () => {
@@ -24,12 +26,10 @@ const ProyectCard = ({ image, mac }: Props) => {
       }
     >
       <div>
-        <p className="grayText ">IAUTOMAT</p>
-        <p className="text-white font-bold text-xl">
-          Play with simulations using Cellular Automata model.
-        </p>
+        <p className="grayText ">{title}</p>
+        <p className="text-white font-bold text-xl">{desc}</p>
       </div>
-      <img src={image} width={"90%"} />
+      <img src={image} width={"90%"} className={mac ? "" : "pt-6"} />
     </div>
   );
 };

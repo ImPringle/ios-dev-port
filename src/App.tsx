@@ -20,11 +20,11 @@ export default function App() {
         <div className="flex flex-col w-3/4 items-center screen-nav justify-center">
           <Reveal>
             <div className="">
-              <p className="text-9xl font-bold">
+              <p className="text-9xl max-[672px]:text-6xl max-[464px]:text-4xl font-bold">
                 Hola, I'm Pringle
                 <span>.</span>
               </p>
-              <p className=" text-6xl grayText">
+              <p className=" text-6xl max-[672px]:text-4xl max-[464px]:text-2xl grayText">
                 I'm a{" "}
                 <span className="font-bold primaryTextColor">
                   Swift Developer

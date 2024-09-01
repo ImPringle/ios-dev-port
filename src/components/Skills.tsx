@@ -15,41 +15,42 @@ import SkillCard from "../components/SkillCard";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col w-full items-center bg-gray-100 py-8 my-16">
+    <div className="flex flex-col w-full items-center justify-center bg-gray-100 py-8 my-16">
       <div className="flex flex-col w-3/4 items-start justify-start">
         <Reveal>
           <div className="flex flex-col">
-            <p className=" text-5xl font-bold">Skills</p>
+            <p className=" text-5xl max-[580px]:text-3xl font-bold">Skills</p>
           </div>
         </Reveal>
       </div>
-
-      <div className="flex w-3/4 justify-evenly py-8">
-        <SkillCard image={"/swift-15.svg"} title="Swift" />
-        <SkillCard
-          image={"/swiftui-96x96_2x.png"}
-          title="SwiftUI"
-          delay={0.2}
-        />
-        <SkillCard
-          image={"/swiftdata-96x96_2x.png"}
-          title="SwiftData"
-          delay={0.3}
-        />
-        <SkillCard
-          image={"/Xcode.png"}
-          title="Xcode"
-          scale="scale-125"
-          delay={0.4}
-        />
-        <SkillCard image={"/cloudkit.png"} title="CloudKit" delay={0.5} />
-      </div>
-      <div className="flex w-3/4 justify-evenly py-8">
-        <SkillCard image={"/terminal.png"} title="Terminal" />
-        <SkillCard image={"/github.png"} title="GitHub" delay={0.2} />
-        <SkillCard image={"/vapor.png"} title="Vapor" delay={0.3} />
-        <SkillCard image={"/cpp.png"} title="C++" delay={0.4} />
-        <SkillCard image={"/nodejs.png"} title="NodeJS" delay={0.5} />
+      <div className=" bg-cyan-100 flex min-[580px]:flex-col items-center justify-center min-[580px]:w-full">
+        <div className="flex flex-col min-[580px]:flex-row w-3/4 justify-evenly py-8 ">
+          <SkillCard image={"/swift-15.svg"} title="Swift" />
+          <SkillCard
+            image={"/swiftui-96x96_2x.png"}
+            title="SwiftUI"
+            delay={0.2}
+          />
+          <SkillCard
+            image={"/swiftdata-96x96_2x.png"}
+            title="SwiftData"
+            delay={0.3}
+          />
+          <SkillCard
+            image={"/Xcode.png"}
+            title="Xcode"
+            scale="scale-125"
+            delay={0.4}
+          />
+          <SkillCard image={"/cloudkit.png"} title="CloudKit" delay={0.5} />
+        </div>
+        <div className="flex flex-col min-[580px]:flex-row  w-3/4 justify-evenly py-8">
+          <SkillCard image={"/terminal.png"} title="Terminal" />
+          <SkillCard image={"/github.png"} title="GitHub" delay={0.2} />
+          <SkillCard image={"/vapor.png"} title="Vapor" delay={0.3} />
+          <SkillCard image={"/cpp.png"} title="C++" delay={0.4} />
+          <SkillCard image={"/nodejs.png"} title="NodeJS" delay={0.5} />
+        </div>
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ const ProjectsMAC = () => {
   return (
     <div className="flex flex-col w-full items-center mt-16 pb-16">
       <div className="flex flex-col w-3/4 items-start justify-start">
-        <p className="text-3xl font-bold mb-3">
+        <p className="text-3xl max-[464px]:text-xl font-bold mb-3">
           macOS.{" "}
           <span className="grayText"> take a look at my desktop apps.</span>
         </p>
@@ -34,9 +34,30 @@ const ProjectsMAC = () => {
           containerClass={`w-full`}
           infinite={true}
         >
-          <ProyectCard image={"/macbook-test.png"} mac={true} />
-          <ProyectCard image={"/macbook-test.png"} mac={true} />
-          <ProyectCard image={"/macbook-test.png"} mac={true} />
+          <ProyectCard
+            image={"/macbook-test.png"}
+            mac={true}
+            title="STATISTICS APP"
+            desc="Analyze the behavior of throwing dices and coinflips."
+          />
+          <ProyectCard
+            image={"/lang-demo-p2.png"}
+            mac={true}
+            title="GRAMMAR GENERATOR"
+            desc="Play, design and learn grammars in Automata Theory."
+          />
+          <ProyectCard
+            image={"/macbook-test.png"}
+            mac={true}
+            title="STATISTICS APP"
+            desc="Analyze the behavior of throwing dices and coinflips."
+          />
+          <ProyectCard
+            image={"/lang-demo-p2.png"}
+            mac={true}
+            title="GRAMMAR GENERATOR"
+            desc="Play, design and learn grammars in Automata Theory."
+          />
         </Carousel>
       </div>
     </div>
